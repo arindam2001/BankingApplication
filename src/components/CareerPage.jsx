@@ -1,8 +1,12 @@
+{
+  /*Developed by Arindam Sal(arindam2001) */
+}
+
 import React from "react";
 import { useState } from "react";
 import bannerImage from "../assets/banner.jpg";
 import aboutImage from "../assets/image1.png";
-import WhyUsSection from './whyus'
+import WhyUsSection from "./whyus";
 import "../styles.css";
 import DiversitySection from "./leadership";
 
@@ -94,8 +98,9 @@ const CareerPage = () => {
                 onClick={() => toggleExpandCountry(country.id)}
               >
                 <span
-                  className={`text-xl font-bold mr-2 ${country.id === 1 || 2 || 3 || 4 || 5 ? "blue-index" : ""
-                    }`}
+                  className={`text-xl font-bold mr-2 ${
+                    country.id === 1 || 2 || 3 || 4 || 5 ? "blue-index" : ""
+                  }`}
                 >
                   {country.id.toString().padStart(2, "0")}.&nbsp;
                 </span>
@@ -132,3 +137,6 @@ const CareerPage = () => {
 };
 
 export default CareerPage;
+{
+  /* Developed by Arindam Sal(arindam2001) */
+}
